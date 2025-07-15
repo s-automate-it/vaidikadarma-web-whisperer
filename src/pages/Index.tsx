@@ -1,12 +1,38 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Hero } from "@/components/Hero";
+import { CategoryTiles } from "@/components/CategoryTiles";
+import { SearchAndFilters } from "@/components/SearchAndFilters";
+import { PanchangCalendar } from "@/components/PanchangCalendar";
+import { GuruBlessings } from "@/components/GuruBlessings";
+import { Testimonials } from "@/components/Testimonials";
+import { StickyContactCTA } from "@/components/StickyContactCTA";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <Hero />
+      
+      {/* Search and Filters */}
+      <SearchAndFilters />
+      
+      {/* Category Tiles */}
+      <CategoryTiles />
+      
+      {/* Panchang Calendar */}
+      <PanchangCalendar />
+      
+      {/* Guru's Blessings */}
+      <GuruBlessings />
+      
+      {/* Testimonials */}
+      <Testimonials />
+      
+      {/* Footer */}
+      <Footer />
+      
+      {/* Sticky Contact CTA */}
+      <StickyContactCTA />
     </div>
   );
 };
