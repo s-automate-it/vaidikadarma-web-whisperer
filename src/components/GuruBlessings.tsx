@@ -20,10 +20,10 @@ export const GuruBlessings = () => {
                 alt="Venkata Shivanaga Kumar" 
                 className="w-full h-full object-cover"
               />
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
+              P. Lakshmi Narasimha Murthy Garu
+            </h3>
             </div>
-            <p className="text-white/90 text-lg">
-              Our Revered Guru & Spiritual Guide
-            </p>
           </div>
 
           {/* Blessing Message */}
@@ -54,10 +54,6 @@ export const GuruBlessings = () => {
                   He is skilled in priestly duties, free from greed and delusion."
                 </blockquote>
               </div>
-              
-              <div className="text-white/80 font-medium">
-                - Sri P. Lakshmi Narasimha Murthy
-              </div>
             </CardContent>
           </Card>
 
@@ -87,7 +83,7 @@ export const GuruBlessings = () => {
           {/* Divine Guidance Notice */}
           <div className="mt-8 text-center">
             <p className="text-white/90 text-lg">
-              🕉️ Under the divine guidance of Sri P. Lakshmi Narasimha Murthy Garu 🕉️
+              🕉️🕉️🕉️🕉️🕉️🕉️🕉️🕉️🕉️🕉️
             </p>
           </div>
         </div>
