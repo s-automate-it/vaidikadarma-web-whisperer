@@ -15,23 +15,25 @@ export const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
             SRI GURU GUHA PEETAM
           </h1>
-          <h2 className="text-2xl md:text-4xl font-sanskrit font-semibold text-primary-glow mb-6">
+          <h2 className="text-2xl md:text-4xl font-sanskrit font-semibold text-white mb-6">
             VAIDIKADARMA
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-2">
             With Blessings of our Guru
           </p>
-          <p className="text-xl md:text-2xl font-semibold text-accent">
+          <p className="text-xl md:text-2xl font-semibold text-white">
             P. Lakshmi Narasimha Murthy Garu
           </p>
         </div>
 
-        {/* Guru Image Placeholder */}
+        {/* Logo */}
         <div className="mb-8">
-          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center shadow-blessing">
-            <div className="text-white/60 text-sm text-center">
-              Guru's<br />Blessed<br />Image
-            </div>
+          <div className="w-48 h-48 md:w-56 md:h-56 mx-auto flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/d4ab0000-f990-4525-abf8-0c3c4a8dcbf8.png" 
+              alt="Vaidikadarma Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
