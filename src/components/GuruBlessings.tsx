@@ -21,7 +21,7 @@ export const GuruBlessings = () => {
                 className="w-full h-full object-cover"
               />
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              P. Lakshmi Narasimha Murthy Garu
+              Venkata Shivanaga Kumar
             </h3>
             </div>
           </div>
@@ -74,7 +74,7 @@ export const GuruBlessings = () => {
                   ></iframe>
                 </div>
                 <p className="text-white/80 text-sm">
-                  Listen to our Guru's guidance on spiritual practices and the importance of Vedic rituals
+                  Listen to spiritual practices and the importance of Vedic rituals
                 </p>
               </CardContent>
             </Card>
