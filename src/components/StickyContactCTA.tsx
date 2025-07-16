@@ -14,7 +14,7 @@ export const StickyContactCTA = () => {
         <Button
           variant="ghost"
           size="icon"
-          onClick={() => setIsVisible(true)}
+          onClick={() => setIsVisible(false)}
           className="h-6 w-6 bg-black/20 hover:bg-black/30 text-white rounded-full"
         >
           <X className="h-4 w-4" />

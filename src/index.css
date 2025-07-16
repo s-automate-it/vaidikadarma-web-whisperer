@@ -22,6 +22,10 @@ All colors MUST be HSL.
     --primary: 25 100% 55%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 25 90% 65%;
+    
+    /* Saffron button variant */
+    --saffron: 27 100% 50%;
+    --saffron-foreground: 0 0% 0%;
 
     /* Maroon secondary */
     --secondary: 0 50% 25%;
