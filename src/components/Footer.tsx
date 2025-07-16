@@ -63,15 +63,15 @@ export const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-sm text-secondary-foreground/80">
                 <Phone className="h-4 w-4 mr-3 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (678) 851-1269</span>
               </div>
               <div className="flex items-center text-sm text-secondary-foreground/80">
                 <MessageCircle className="h-4 w-4 mr-3 flex-shrink-0" />
-                <span>WhatsApp: +1 (555) 123-4567</span>
+                <span>WhatsApp: +1 (678) 851-1269</span>
               </div>
               <div className="flex items-center text-sm text-secondary-foreground/80">
                 <Mail className="h-4 w-4 mr-3 flex-shrink-0" />
-                <span>info@vaidikadarma.com</span>
+                <span>ganaskanda23@gmail.com</span>
               </div>
               <div className="flex items-start text-sm text-secondary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3 flex-shrink-0 mt-0.5" />
@@ -87,7 +87,7 @@ export const Footer = () => {
             <Button 
               size="lg"
               className="bg-green-500 hover:bg-green-600 text-white shadow-warm"
-              onClick={() => window.open('https://wa.me/1234567890?text=Namaste! I would like to inquire about booking a ritual ceremony.', '_blank')}
+              onClick={() => window.open('https://wa.me/16788511269?text=Namaste! I would like to inquire about booking a ritual ceremony.', '_blank')}
             >
               <MessageCircle className="h-5 w-5 mr-2" />
               Chat on WhatsApp
@@ -96,7 +96,7 @@ export const Footer = () => {
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white/10"
-              onClick={() => window.open('tel:+1234567890')}
+              onClick={() => window.open('tel:+16788511269')}
             >
               <Phone className="h-5 w-5 mr-2" />
               Call Now

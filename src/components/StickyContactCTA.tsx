@@ -27,7 +27,7 @@ export const StickyContactCTA = () => {
         <Button
           size="lg"
           className="bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6"
-          onClick={() => window.open('https://wa.me/1234567890?text=Namaste! I would like to inquire about booking a ritual ceremony.', '_blank')}
+          onClick={() => window.open('https://wa.me/16788511269?text=Namaste! I would like to inquire about booking a ritual ceremony.', '_blank')}
         >
           <MessageCircle className="h-5 w-5 mr-2" />
           WhatsApp
@@ -38,7 +38,7 @@ export const StickyContactCTA = () => {
           size="lg"
           variant="secondary"
           className="shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-6 text-secondary-foreground hover:text-secondary-foreground"
-          onClick={() => window.open('tel:+1234567890')}
+          onClick={() => window.open('tel:+16788511269')}
         >
           <Phone className="h-5 w-5 mr-2" />
           Call Now

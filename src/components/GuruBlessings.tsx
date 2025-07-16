@@ -14,10 +14,12 @@ export const GuruBlessings = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Guru Image */}
           <div className="mb-8">
-            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center shadow-blessing mb-6">
-              <div className="text-white/60 text-sm text-center">
-                Guru's<br />Blessed<br />Portrait
-              </div>
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 overflow-hidden shadow-blessing mb-6">
+              <img 
+                src="/guru-photo.jpg" 
+                alt="P. Lakshmi Narasimha Murthy Garu" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
               P. Lakshmi Narasimha Murthy Garu
@@ -32,9 +34,29 @@ export const GuruBlessings = () => {
             <CardContent className="p-8">
               <Quote className="h-8 w-8 text-white/80 mx-auto mb-6" />
               
-              <blockquote className="text-lg md:text-xl text-white/95 italic mb-6 leading-relaxed">
-                "May the divine blessings of the Almighty guide every soul seeking spiritual fulfillment through these sacred rituals. Under divine grace, we perform each ceremony with complete devotion and adherence to ancient Vedic traditions."
-              </blockquote>
+              <div className="mb-6">
+                <div className="text-lg md:text-xl text-white/95 mb-4 leading-relaxed font-sanskrit">
+                  ధర్మేణధ్రియతేవిశ్వంధర్మేణ ధ్రియతేమహీ।<br />
+                  ధర్మంతువైదికంప్రోక్తంసర్వభూతోపకారకమ్।।1<br /><br />
+                  
+                  వైదికంధర్మమాశ్రిత్యకరిష్యేజీవనంముదా।<br />
+                  జన్మనాదీక్షితోభూత్వాసర్వభూతహితేరత:।।2<br /><br />
+                  
+                  ఆంధ్రదేశేతు సంభూత:శివనాగఇతిశ్రుత:।<br />
+                  పౌరోహిత్యక్రియాదక్షోలోభమోహవివర్జిత:।।3
+                </div>
+                
+                <blockquote className="text-base md:text-lg text-white/90 italic leading-relaxed">
+                  "The universe is sustained by dharma, and the Earth is upheld by dharma.
+                  Dharma, as declared in the Vedas, benefits all living beings.<br /><br />
+                  
+                  By following the Vedic dharma, one should live a joyful life.
+                  Having been consecrated from birth, one must dedicate themselves to the welfare of all beings.<br /><br />
+                  
+                  Born in the land of Andhra, known as Shiva Naga,
+                  He is skilled in priestly duties, free from greed and delusion."
+                </blockquote>
+              </div>
               
               <div className="text-white/80 font-medium">
                 - Sri P. Lakshmi Narasimha Murthy
@@ -50,7 +72,7 @@ export const GuruBlessings = () => {
                   <Button 
                     size="lg" 
                     className="bg-white/20 hover:bg-white/30 text-white border-white/40"
-                    onClick={() => {/* Video play logic */}}
+                    onClick={() => window.open('https://www.youtube.com/watch?v=T1RMG1z_gOs', '_blank')}
                   >
                     <Play className="h-8 w-8 mr-2 fill-white" />
                     Watch Guru's Message

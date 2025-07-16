@@ -57,7 +57,7 @@ export const Hero = () => {
             <Button 
               size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-warm text-lg px-8"
-              onClick={() => window.open('tel:+1234567890')}
+              onClick={() => window.open('tel:+16788511269')}
             >
               <Phone className="h-5 w-5 mr-2" />
               Call Now
@@ -66,7 +66,7 @@ export const Hero = () => {
             <Button 
               size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-warm text-lg px-8"
-              onClick={() => window.open('https://wa.me/1234567890')}
+              onClick={() => window.open('https://wa.me/16788511269')}
             >
               <MessageCircle className="h-5 w-5 mr-2" />
               WhatsApp
