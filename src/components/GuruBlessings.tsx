@@ -65,15 +65,17 @@ export const GuruBlessings = () => {
           <div className="mt-8">
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 shadow-blessing max-w-2xl mx-auto">
               <CardContent className="p-6">
-                <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center mb-4">
-                  <Button 
-                    size="lg" 
-                    className="bg-white/20 hover:bg-white/30 text-white border-white/40"
-                    onClick={() => window.open('https://www.youtube.com/watch?v=T1RMG1z_gOs', '_blank')}
-                  >
-                    <Play className="h-8 w-8 mr-2 fill-white" />
-                    Watch Guru's Message
-                  </Button>
+                <div className="aspect-video rounded-lg overflow-hidden mb-4">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/T1RMG1z_gOs"
+                    title="Guru's Message"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
                 </div>
                 <p className="text-white/80 text-sm">
                   Listen to our Guru's guidance on spiritual practices and the importance of Vedic rituals
