@@ -56,7 +56,7 @@ export const Hero = () => {
           <div className="flex gap-2">
             <Button 
               size="lg"
-              className="bg-saffron text-saffron-foreground hover:bg-saffron/90"
+              className="bg-white text-primary hover:bg-white/90 shadow-warm text-lg px-8"
               onClick={() => window.open('tel:+1234567890')}
             >
               <Phone className="h-5 w-5 mr-2" />
@@ -65,7 +65,7 @@ export const Hero = () => {
             
             <Button 
               size="lg"
-              className="bg-saffron text-saffron-foreground hover:bg-saffron/90"
+              className="bg-white text-primary hover:bg-white/90 shadow-warm text-lg px-8"
               onClick={() => window.open('https://wa.me/1234567890')}
             >
               <MessageCircle className="h-5 w-5 mr-2" />
