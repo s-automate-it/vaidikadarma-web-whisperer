@@ -20,9 +20,11 @@ export const GuruBlessings = () => {
                 alt="Venkata Shivanaga Kumar" 
                 className="w-full h-full object-cover"
               />
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
+              <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
               Venkata Shivanaga Kumar
-            </h3>
+            </h2>
+                </div>
             </div>
           </div>
 
