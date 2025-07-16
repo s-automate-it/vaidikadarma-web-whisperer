@@ -17,13 +17,10 @@ export const GuruBlessings = () => {
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 overflow-hidden shadow-blessing mb-6">
               <img 
                 src="/lovable-uploads/16f0b540-13df-44c5-b272-44a6ba88ee7e.png" 
-                alt="P. Lakshmi Narasimha Murthy Garu" 
+                alt="Venkata Shivanaga Kumar" 
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              P. Lakshmi Narasimha Murthy Garu
-            </h3>
             <p className="text-white/90 text-lg">
               Our Revered Guru & Spiritual Guide
             </p>
