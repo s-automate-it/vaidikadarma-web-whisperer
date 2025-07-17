@@ -6,6 +6,7 @@ import { GuruBlessings } from "@/components/GuruBlessings";
 import { Testimonials } from "@/components/Testimonials";
 import { StickyContactCTA } from "@/components/StickyContactCTA";
 import { Footer } from "@/components/Footer";
+import { Chatbot } from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -33,6 +34,9 @@ const Index = () => {
       
       {/* Sticky Contact CTA */}
       <StickyContactCTA />
+      
+      {/* Chatbot */}
+      <Chatbot />
     </div>
   );
 };
